@@ -114,6 +114,8 @@ nav ul li a:focus {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+
+    margin-top: 2.5em
 }
 
 .team-grid article {
@@ -127,4 +129,13 @@ nav ul li a:focus {
     width: 80px;
     border-radius: 50%;
     filter: grayscale(100%);
+}
+
+.team-grid h3 {
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
 }
